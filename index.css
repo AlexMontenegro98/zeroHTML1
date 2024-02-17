@@ -1,0 +1,31 @@
+.frame-contact-over-child {
+  height: 137px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+
+.email {
+  background-color: green;
+  color: white;
+  text-align: left;
+  width: 80%;
+  padding: 4px 10px;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-radius: 6px;
+}
+
+.email::placeholder {
+  color: red;
+  opacity: 0.8; /* Firefox */
+}
+
+.form {
+  position: relative;
+  margin: auto;
+}
+
